@@ -16,5 +16,12 @@ pipeline {
                 sh 'echo "iam deplyoing the iamge in the docker string" '
             }
         }
+        stage('cpudetails'){
+            steps{
+                sh '''
+                lscpu
+                '''
+            }
+        }
     }
 }

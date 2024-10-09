@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'echo "iam testing the image in the docker" '
+                sh 'echo "iam testing the image in the docker hdjfsd" '
             }
         }
         stage('Deploy') {

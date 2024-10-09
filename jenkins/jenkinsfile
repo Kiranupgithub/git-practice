@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "iam deplyoing the iamge in the docker" '
+                sh 'echo "iam deplyoing the iamge in the docker string" '
             }
         }
     }
